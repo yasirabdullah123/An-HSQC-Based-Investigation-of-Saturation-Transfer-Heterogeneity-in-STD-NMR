@@ -29,18 +29,18 @@ This work transforms STD-NMR from assumption-based to evidence-based methodology
 ```
 ├── src/                                    # Source code
 │   ├── assignment/
-│   │   ├── peak_assignment_rbh.jl         # Reciprocal Best Hit peak assignment algorithm
-│   │   └── utils/
-│   │       └── nmr_analysis_utils.jl      # Core NMR processing utilities
+│   │   └── peak_assignment_rbh.jl         # Reciprocal Best Hit peak assignment algorithm
 │   ├── analysis/
 │   │   ├── saturation_time_analysis.jl    # Temporal kinetics optimization (0.1-5.0 s)
 │   │   ├── pulse_shape_analysis.jl        # Gaussian/E-BURP1/I-BURP2 comparison
 │   │   └── frequency_offset_analysis.jl   # Blind spot mapping (-0.5 to 8.5 ppm)
-│   └── visualization/
-│       ├── generate_publication_figures.jl # Master figure generation pipeline
-│       ├── generate_frequency_heatmaps.jl  # Frequency-dependent saturation maps
-│       ├── generate_pulse_heatmaps.jl      # Pulse shape comparison visualizations
-│       └── generate_time_heatmaps.jl       # Temporal saturation kinetics maps
+│   ├── visualization/
+│   │   ├── generate_publication_figures.jl # Master figure generation pipeline
+│   │   ├── generate_frequency_heatmaps.jl  # Frequency-dependent saturation maps
+│   │   ├── generate_pulse_heatmaps.jl      # Pulse shape comparison visualizations
+│   │   └── generate_time_heatmaps.jl       # Temporal saturation kinetics maps
+│   └── utils/
+│       └── nmr_analysis_utils.jl           # Core NMR processing utilities
 ├── data/
 │   ├── raw_experiments/                    # 301 Bruker NMR experiments
 │   ├── example/                            # Example dataset (experiment 31)
