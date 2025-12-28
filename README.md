@@ -4,7 +4,6 @@
 
 [![Julia](https://img.shields.io/badge/Julia-1.9+-9558B2?style=flat&logo=julia)](https://julialang.org/)
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat&logo=python)](https://python.org/)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ## Overview
 
@@ -179,12 +178,6 @@ If you use this code or methodology in your research, please cite:
 **Abdullah Yasir**
 MSc Drug Discovery and Development, University College London
 Supervisor: Dr. Christopher A. Waudby
-
----
-
-## License
-
-MIT License - see [LICENSE](LICENSE) for details
 
 ---
 
