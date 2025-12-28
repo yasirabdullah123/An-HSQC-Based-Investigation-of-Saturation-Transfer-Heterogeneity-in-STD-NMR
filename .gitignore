@@ -1,0 +1,67 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary files
+*.tmp
+*~
+~$*
+
+# Julia
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+.julia/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# NMR temporary files
+*.ucsf
+*.ft2
+*.ft1
+
+# Backup files
+*.backup
+*_old
+*_backup
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary analysis files
+debug*.jl
+debug*.tex
+temp*.jl
+draft.jl
+
+# Large data files (keep in local only)
+*.zip
+marp-main/
+
+# Raw NMR experiment data (too large for GitHub)
+data/raw_experiments/
+data/example/
+
+# Office temporary files
+~$*.xlsx
+~$*.pptx
+~$*.docx
+
+# Other temporary directories
+lysozmesattest/
+"untitled folder"/
+"untitled folder 2"/
